@@ -9,3 +9,21 @@
 .cursor-pointer {
     cursor: pointer;
 }
+
+.table-response {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn {
+    border-radius: 25px !important;
+    margin-bottom: 10px !important;
+}
+
+@media (max-width: 415px) {
+    .horizontal {
+        flex-direction: column;
+    }
+}
